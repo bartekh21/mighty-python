@@ -21,7 +21,7 @@ class RunFFTest():
 
     def testMethod(self):
         # initiate webdriver
-        password = 'NKhi87_G*8g888'
+        password = ''
         profile = webdriver.FirefoxProfile()
         profile.set_preference('network.http.phishy-userpass-length', 255)
         driver = webdriver.Firefox(firefox_profile=profile)
